@@ -35,7 +35,7 @@ string intsh_msg = "INTSH / SHUTDOWN STOPPER\n";
 string credit_msg = "CREDIT\n";
 vector<string> credit_list = {
     "SunbroHere https://github.com/AliGhaffarian",
-    "slofj link"
+    "slofj link http://slofj.ir"
 };
 string instruction_banner = "INSTRUCTIONS\n"; 
 vector<string> instructions = {
@@ -81,7 +81,7 @@ void print_init_msgs(){
     print_msg_and_delim(colors::bright_red, instruction_banner, '-');
     print_list(instructions);
 }
-int APIENTRY wWinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance,
+int APIENTRY main( HINSTANCE hInstance, HINSTANCE hPrevInstance,
                        LPWSTR lpCmdLine, int nCmdShow )
 {
     print_init_msgs();
