@@ -1,0 +1,1 @@
+g++ -static-libstdc++ -static-libgcc intsh.cpp -o intsh
